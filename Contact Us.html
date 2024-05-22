@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NGO</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sty.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html.html"><img src="Images/HAPPY TAILS.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html.html">HOME</a></li>
+                        <li><a href="about  dogs.html">ABOUT DOGS</a></li>
+
+                        <li><a href="vision and values.html">VISION & VALUES</a></li>
+                        <li><a href="Contact Us.html">CONTACT US</a></li>
+                        <li><a href="BecomeAVolunteer.html">BECOME A VOLUNTEER</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+        </section>
+
+
+<section class="vision">
+
+    <h2>Contact us to report a case / adopt a dog</h2>
+    <div class="row">
+        <div class="vision-col">
+            <h3><i class="fa fa-envelope" style="padding-right: 20px;"></i>Email</h3>
+            <p style="text-align: center; "><a href="mailto:suparnaroygupta#12@gmail.com", style="color: black; text-decoration: none; ">suparnaroygupta#12@gmail.com</a>
+                <a href="mailto:prateekrai500@gmail.com", style="color: black; text-decoration: none; ">prateekrai500@gmail.com</a>
+                <a href="mailto:Happytails@yahoo.com", style="color: black; text-decoration: none; ">Happytails@yahoo.com</a></p>
+        </div>
+        <div class="vision-col">
+            <h3><i class="fa fa-phone" style=" padding-right: 23px;"></i>Phone Number</h3>
+            <p style="padding: 4px; text-align: center; color: black;">+91-9934371289</p>
+            <p style="padding: 4px; text-align: center; color: black;">+91-9949812507</p>
+            <p style="padding: 4px; text-align: center; color: black;">+91-9669345851</p>
+        </div>
+        <div class="vision-col">
+            <h3><i class="fa fa-globe "style=" padding-right: 16px;"></i>Address</h3>
+            <p style="color: black; text-align: center;"> Happy Tails, New Delhi.</p>
+        </div>
+    </div>
+
+</section>
+
+<!-----------------FOOTER----------------->
+<section class="footer">
+    <div class="icons">
+        <a href="https://www.facebook.com/streetdogsofranchi/" > <i class="fa fa-facebook" ></i></a>
+        <a href="https://twitter.com/animalwelfares1?lang=en" > <i class="fa fa-twitter" ></i></a>
+       <a href="https://www.instagram.com/streetdogsofranchi/?hl=en" > <i class="fa fa-instagram" ></i></a>
+        <a href="https://in.linkedin.com/in/animal-peers-328325ba" > <i class="fa fa-linkedin" ></i></a>
+    </div>
+</section>
+
+<!-------------JAVA SCRIPT FOR TOGGLE MENU------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
